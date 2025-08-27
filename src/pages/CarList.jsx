@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { carData } from "../components/CarData";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from ".../Redux/CartSlice";
+import { addToCart } from "../Redux/CartSlice";
 
 const CarList = () => {
   const [searchTerm, setSearchTerm] = useState("");

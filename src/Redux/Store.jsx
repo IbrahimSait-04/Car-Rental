@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import cartReducer from '.../Redux/CartSlice'
+import cartReducer from '../Redux/CartSlice'
 import themeReducer from '../Redux/ThemeSlice'
 
 
