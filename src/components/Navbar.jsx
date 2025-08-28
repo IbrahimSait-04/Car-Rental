@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { toggleTheme } from '../Redux/themeSlice';
+import { toggleTheme } from '../redux/themeSlice';
 
 const Navbar = () => {
   const theme = useSelector((state) => state.theme.value);
