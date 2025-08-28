@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';  
-import { carData } from '../components/CarData';
+import { carData } from '../components/cardata';
 
 const Booking = () => {
   const [car, setCar] = useState(null);
