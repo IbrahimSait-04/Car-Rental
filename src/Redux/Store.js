@@ -3,7 +3,7 @@ import cartReducer from './cartSlice'
 import themeReducer from './themeSlice'
 
 
-export const store = configureStore({
+export const Store = configureStore({
     reducer: {
         cart: cartReducer,
         theme: themeReducer
